@@ -27,6 +27,7 @@
 		447639550C549E648CA83229 /* Pods-BuildSettingsShouldMatch.testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuildSettingsShouldMatch.testing.xcconfig"; path = "Pods/Target Support Files/Pods-BuildSettingsShouldMatch/Pods-BuildSettingsShouldMatch.testing.xcconfig"; sourceTree = "<group>"; };
 		8147735F2F713C8D9D2A2C47 /* Pods_BuildSettingsShouldMatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuildSettingsShouldMatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9786DB7DD9D78F6A55FE18FD /* Pods-BuildSettingsShouldMatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuildSettingsShouldMatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuildSettingsShouldMatch/Pods-BuildSettingsShouldMatch.release.xcconfig"; sourceTree = "<group>"; };
+		F5F25EB21966F34D5D675660 /* Pods-BuildSettingsShouldMatch.newdebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuildSettingsShouldMatch.newdebug.xcconfig"; path = "Pods/Target Support Files/Pods-BuildSettingsShouldMatch/Pods-BuildSettingsShouldMatch.newdebug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 				43BA017BA5A64D1BFBA37B06 /* Pods-BuildSettingsShouldMatch.debug.xcconfig */,
 				9786DB7DD9D78F6A55FE18FD /* Pods-BuildSettingsShouldMatch.release.xcconfig */,
 				447639550C549E648CA83229 /* Pods-BuildSettingsShouldMatch.testing.xcconfig */,
+				F5F25EB21966F34D5D675660 /* Pods-BuildSettingsShouldMatch.newdebug.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -229,7 +231,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3184C5E120B73F6E00616A0B /* Debug */ = {
+		3184C5E120B73F6E00616A0B /* NewDebug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,7 +290,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = NewDebug;
 		};
 		3184C5E220B73F6E00616A0B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -345,9 +347,9 @@
 			};
 			name = Release;
 		};
-		3184C5E420B73F6E00616A0B /* Debug */ = {
+		3184C5E420B73F6E00616A0B /* NewDebug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43BA017BA5A64D1BFBA37B06 /* Pods-BuildSettingsShouldMatch.debug.xcconfig */;
+			baseConfigurationReference = F5F25EB21966F34D5D675660 /* Pods-BuildSettingsShouldMatch.newdebug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -361,7 +363,7 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = NewDebug;
 		};
 		3184C5E520B73F6E00616A0B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -466,7 +468,7 @@
 		3184C5CC20B73F6C00616A0B /* Build configuration list for PBXProject "BuildSettingsShouldMatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3184C5E120B73F6E00616A0B /* Debug */,
+				3184C5E120B73F6E00616A0B /* NewDebug */,
 				3184C5E620B7402F00616A0B /* Testing */,
 				3184C5E220B73F6E00616A0B /* Release */,
 			);
@@ -476,7 +478,7 @@
 		3184C5E320B73F6E00616A0B /* Build configuration list for PBXNativeTarget "BuildSettingsShouldMatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3184C5E420B73F6E00616A0B /* Debug */,
+				3184C5E420B73F6E00616A0B /* NewDebug */,
 				3184C5E720B7402F00616A0B /* Testing */,
 				3184C5E520B73F6E00616A0B /* Release */,
 			);

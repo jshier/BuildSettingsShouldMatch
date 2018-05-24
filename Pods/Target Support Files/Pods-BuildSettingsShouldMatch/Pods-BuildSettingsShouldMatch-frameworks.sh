@@ -142,7 +142,7 @@ strip_invalid_archs() {
 }
 
 
-if [[ "$CONFIGURATION" == "Debug" ]]; then
+if [[ "$CONFIGURATION" == "NewDebug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
 fi
 if [[ "$CONFIGURATION" == "Testing" ]]; then
